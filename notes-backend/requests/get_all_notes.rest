@@ -1,0 +1,14 @@
+
+POST http://localhost:3001/api/notes
+content-type: application/json
+
+{
+    "content": "working yet?",
+    "important": true
+}
+
+###
+
+GET http://localhost:3001/api/notes/62c87f908eddb1ea01c9495a
+
+###
